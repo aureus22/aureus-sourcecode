@@ -1,0 +1,9 @@
+Building Aureus
+
+See doc/readme-qt.rst for instructions on building Aureus-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Aureus.
+
+See doc/build-*.txt for instructions on building aureusd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Aureus.

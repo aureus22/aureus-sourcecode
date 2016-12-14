@@ -1,0 +1,34 @@
+src/*.exe
+src/aureus
+src/aureusd
+src/test_aureus
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.aureus
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+aureus-qt
+Aureus-Qt.app
+
+# Unit-tests
+Makefile.test
+aureus-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
